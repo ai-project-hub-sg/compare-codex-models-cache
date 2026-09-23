@@ -1,2 +1,9 @@
 # compare-codex-models-cache
-比较不同来源生成的codex的模型源能力之间的差异
+比较不同来源生成的codex的模型源描述的差异
+当前比较来自codex++生成
+来自codex github仓库
+来自codex Auth登录
+文件命名以some_origin_source-YYYY_MM_DD.json为标准格式。其中some_origin_source为来源名称。YYYY_MM_DD表示为该文件不晚于此日被生成。不代表文件就是此日生成。不能确保文件就是此日期之前的最新一份。
+模型文件在models目录下
+分析形成的报告放在reports目录下
+相关的使用文档放在docs
